@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D07F1DA1A265FE300FFBD06 /* CircleMaskSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07F1D91A265FE300FFBD06 /* CircleMaskSegue.swift */; };
 		3D1BB4F81A261E270027EB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BB4F71A261E270027EB56 /* AppDelegate.swift */; };
 		3D1BB4FA1A261E270027EB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BB4F91A261E270027EB56 /* ViewController.swift */; };
 		3D1BB4FD1A261E270027EB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1BB4FB1A261E270027EB56 /* Main.storyboard */; };
 		3D1BB4FF1A261E270027EB56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1BB4FE1A261E270027EB56 /* Images.xcassets */; };
 		3D1BB5021A261E270027EB56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1BB5001A261E270027EB56 /* LaunchScreen.xib */; };
-		3D1BB50E1A261E270027EB56 /* CustomTransitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BB50D1A261E270027EB56 /* CustomTransitionsTests.swift */; };
+		3D1BB51E1A2639BE0027EB56 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BB51D1A2639BE0027EB56 /* UIImage+ImageEffects.m */; };
+		3D1BB5211A2639C80027EB56 /* ZoomInSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BB5201A2639C80027EB56 /* ZoomInSegue.swift */; };
+		3D1BB5261A263A060027EB56 /* Double+DispatchTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BB5251A263A060027EB56 /* Double+DispatchTime.swift */; };
+		3D209B3C1A26429600AFFE29 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D209B3B1A26429600AFFE29 /* ViewController2.swift */; };
+		3D67DE001A264138000D51BE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D67DDFF1A264138000D51BE /* ViewController3.swift */; };
+		3D6ECCFC1A263DA700C9383F /* ZoomOutSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6ECCFB1A263DA700C9383F /* ZoomOutSegue.swift */; };
+		3DADCFF21A2CD609001DE90C /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DADCFF11A2CD609001DE90C /* UIColor+Utils.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3D1BB5081A261E270027EB56 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D1BB4EA1A261E270027EB56 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D1BB4F11A261E270027EB56;
-			remoteInfo = CustomTransitions;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3D07F1D91A265FE300FFBD06 /* CircleMaskSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMaskSegue.swift; sourceTree = "<group>"; };
 		3D1BB4F21A261E270027EB56 /* CustomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1BB4F61A261E270027EB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1BB4F71A261E270027EB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,20 +31,19 @@
 		3D1BB4FC1A261E270027EB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1BB4FE1A261E270027EB56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D1BB5011A261E270027EB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3D1BB5071A261E270027EB56 /* CustomTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1BB50C1A261E270027EB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D1BB50D1A261E270027EB56 /* CustomTransitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsTests.swift; sourceTree = "<group>"; };
+		3D1BB51C1A2639BE0027EB56 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3D1BB51D1A2639BE0027EB56 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		3D1BB5201A2639C80027EB56 /* ZoomInSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomInSegue.swift; sourceTree = "<group>"; };
+		3D1BB5251A263A060027EB56 /* Double+DispatchTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+DispatchTime.swift"; sourceTree = "<group>"; };
+		3D1BB5271A263A960027EB56 /* CustomTransitions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTransitions-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D209B3B1A26429600AFFE29 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3D67DDFF1A264138000D51BE /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		3D6ECCFB1A263DA700C9383F /* ZoomOutSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomOutSegue.swift; sourceTree = "<group>"; };
+		3DADCFF11A2CD609001DE90C /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3D1BB4EF1A261E270027EB56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1BB5041A261E270027EB56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				3D1BB4F41A261E270027EB56 /* CustomTransitions */,
-				3D1BB50A1A261E270027EB56 /* CustomTransitionsTests */,
 				3D1BB4F31A261E270027EB56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				3D1BB4F21A261E270027EB56 /* CustomTransitions.app */,
-				3D1BB5071A261E270027EB56 /* CustomTransitionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,8 +72,12 @@
 		3D1BB4F41A261E270027EB56 /* CustomTransitions */ = {
 			isa = PBXGroup;
 			children = (
+				3D1BB51F1A2639C80027EB56 /* Segues */,
+				3D1BB51B1A2639BE0027EB56 /* Categories */,
 				3D1BB4F71A261E270027EB56 /* AppDelegate.swift */,
 				3D1BB4F91A261E270027EB56 /* ViewController.swift */,
+				3D209B3B1A26429600AFFE29 /* ViewController2.swift */,
+				3D67DDFF1A264138000D51BE /* ViewController3.swift */,
 				3D1BB4FB1A261E270027EB56 /* Main.storyboard */,
 				3D1BB4FE1A261E270027EB56 /* Images.xcassets */,
 				3D1BB5001A261E270027EB56 /* LaunchScreen.xib */,
@@ -91,25 +90,30 @@
 			isa = PBXGroup;
 			children = (
 				3D1BB4F61A261E270027EB56 /* Info.plist */,
+				3D1BB5271A263A960027EB56 /* CustomTransitions-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3D1BB50A1A261E270027EB56 /* CustomTransitionsTests */ = {
+		3D1BB51B1A2639BE0027EB56 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				3D1BB50D1A261E270027EB56 /* CustomTransitionsTests.swift */,
-				3D1BB50B1A261E270027EB56 /* Supporting Files */,
+				3D1BB5251A263A060027EB56 /* Double+DispatchTime.swift */,
+				3DADCFF11A2CD609001DE90C /* UIColor+Utils.swift */,
+				3D1BB51C1A2639BE0027EB56 /* UIImage+ImageEffects.h */,
+				3D1BB51D1A2639BE0027EB56 /* UIImage+ImageEffects.m */,
 			);
-			path = CustomTransitionsTests;
+			path = Categories;
 			sourceTree = "<group>";
 		};
-		3D1BB50B1A261E270027EB56 /* Supporting Files */ = {
+		3D1BB51F1A2639C80027EB56 /* Segues */ = {
 			isa = PBXGroup;
 			children = (
-				3D1BB50C1A261E270027EB56 /* Info.plist */,
+				3D1BB5201A2639C80027EB56 /* ZoomInSegue.swift */,
+				3D6ECCFB1A263DA700C9383F /* ZoomOutSegue.swift */,
+				3D07F1D91A265FE300FFBD06 /* CircleMaskSegue.swift */,
 			);
-			name = "Supporting Files";
+			path = Segues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +136,6 @@
 			productReference = 3D1BB4F21A261E270027EB56 /* CustomTransitions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D1BB5061A261E270027EB56 /* CustomTransitionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D1BB5141A261E270027EB56 /* Build configuration list for PBXNativeTarget "CustomTransitionsTests" */;
-			buildPhases = (
-				3D1BB5031A261E270027EB56 /* Sources */,
-				3D1BB5041A261E270027EB56 /* Frameworks */,
-				3D1BB5051A261E270027EB56 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D1BB5091A261E270027EB56 /* PBXTargetDependency */,
-			);
-			name = CustomTransitionsTests;
-			productName = CustomTransitionsTests;
-			productReference = 3D1BB5071A261E270027EB56 /* CustomTransitionsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +147,6 @@
 				TargetAttributes = {
 					3D1BB4F11A261E270027EB56 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					3D1BB5061A261E270027EB56 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 3D1BB4F11A261E270027EB56;
 					};
 				};
 			};
@@ -182,7 +164,6 @@
 			projectRoot = "";
 			targets = (
 				3D1BB4F11A261E270027EB56 /* CustomTransitions */,
-				3D1BB5061A261E270027EB56 /* CustomTransitionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +179,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D1BB5051A261E270027EB56 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,28 +186,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1BB51E1A2639BE0027EB56 /* UIImage+ImageEffects.m in Sources */,
+				3D209B3C1A26429600AFFE29 /* ViewController2.swift in Sources */,
+				3D6ECCFC1A263DA700C9383F /* ZoomOutSegue.swift in Sources */,
+				3D1BB5211A2639C80027EB56 /* ZoomInSegue.swift in Sources */,
+				3D1BB5261A263A060027EB56 /* Double+DispatchTime.swift in Sources */,
+				3DADCFF21A2CD609001DE90C /* UIColor+Utils.swift in Sources */,
 				3D1BB4FA1A261E270027EB56 /* ViewController.swift in Sources */,
+				3D07F1DA1A265FE300FFBD06 /* CircleMaskSegue.swift in Sources */,
+				3D67DE001A264138000D51BE /* ViewController3.swift in Sources */,
 				3D1BB4F81A261E270027EB56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D1BB5031A261E270027EB56 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1BB50E1A261E270027EB56 /* CustomTransitionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3D1BB5091A261E270027EB56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D1BB4F11A261E270027EB56 /* CustomTransitions */;
-			targetProxy = 3D1BB5081A261E270027EB56 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3D1BB4FB1A261E270027EB56 /* Main.storyboard */ = {
@@ -339,6 +305,7 @@
 				INFOPLIST_FILE = CustomTransitions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/CustomTransitions-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,40 +316,7 @@
 				INFOPLIST_FILE = CustomTransitions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3D1BB5151A261E270027EB56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomTransitionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransitions.app/CustomTransitions";
-			};
-			name = Debug;
-		};
-		3D1BB5161A261E270027EB56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomTransitionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransitions.app/CustomTransitions";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/CustomTransitions-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,14 +339,7 @@
 				3D1BB5131A261E270027EB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3D1BB5141A261E270027EB56 /* Build configuration list for PBXNativeTarget "CustomTransitionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D1BB5151A261E270027EB56 /* Debug */,
-				3D1BB5161A261E270027EB56 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

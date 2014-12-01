@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C68k" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CustomTransitions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +15,112 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg1" translatesAutoresizingMaskIntoConstraints="NO" id="i3x-j0-Rro">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController #1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAm-Zq-YZx">
+                                <rect key="frame" x="162" y="28" width="276" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="xsr-sA-H9h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="i3x-j0-Rro" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="0Pl-5L-f4K"/>
+                            <constraint firstItem="i3x-j0-Rro" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="WZ6-ZI-UZH"/>
+                            <constraint firstItem="i3x-j0-Rro" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="bkU-h8-3dI"/>
+                            <constraint firstItem="cAm-Zq-YZx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="blS-aA-xOC"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cAm-Zq-YZx" secondAttribute="bottom" constant="521" id="krB-nH-Wp4"/>
+                            <constraint firstAttribute="trailing" secondItem="i3x-j0-Rro" secondAttribute="trailing" id="lja-O7-Ylb"/>
+                            <constraint firstItem="i3x-j0-Rro" firstAttribute="centerX" secondItem="cAm-Zq-YZx" secondAttribute="centerX" id="pBN-Kq-NiQ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="GIa-je-yYI" kind="custom" identifier="NextStep" customClass="ZoomInSegue" customModule="CustomTransitions" customModuleProvider="target" id="bKQ-hv-rSq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="252" y="-638"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="eZk-fs-bQT">
+            <objects>
+                <viewController id="GIa-je-yYI" customClass="ViewController2" customModule="CustomTransitions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8hN-04-Jmq"/>
+                        <viewControllerLayoutGuide type="bottom" id="ETi-8n-XWQ"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="DIg-ea-c0h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Controller #2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybo-iz-H3H">
+                                <rect key="frame" x="179" y="28" width="243" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="1pS-ie-ZMN"/>
+                                    <constraint firstAttribute="height" constant="38" id="lBi-Sd-0VF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ybo-iz-H3H" firstAttribute="top" secondItem="8hN-04-Jmq" secondAttribute="bottom" constant="8" symbolic="YES" id="oSP-We-2xp"/>
+                            <constraint firstItem="ybo-iz-H3H" firstAttribute="centerX" secondItem="DIg-ea-c0h" secondAttribute="centerX" id="sn7-H7-x66"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="NmN-Bu-k1S" kind="custom" identifier="NextStep" customClass="ZoomOutSegue" customModule="CustomTransitions" customModuleProvider="target" id="z9v-pR-Emm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cNP-Y4-Epr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1126" y="-565"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="Il3-d3-sfw">
+            <objects>
+                <viewController id="NmN-Bu-k1S" customClass="ViewController3" customModule="CustomTransitions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q9x-V8-anu"/>
+                        <viewControllerLayoutGuide type="bottom" id="CX8-Q0-VQm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2k9-rB-3eh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController #3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqb-nk-580">
+                                <rect key="frame" x="162" y="28" width="276" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="jkX-oA-ZgN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hqb-nk-580" firstAttribute="centerX" secondItem="2k9-rB-3eh" secondAttribute="centerX" id="DG7-xC-sko"/>
+                            <constraint firstItem="hqb-nk-580" firstAttribute="top" secondItem="q9x-V8-anu" secondAttribute="bottom" constant="8" symbolic="YES" id="NQv-Vr-ZXf"/>
+                            <constraint firstItem="CX8-Q0-VQm" firstAttribute="top" secondItem="hqb-nk-580" secondAttribute="bottom" constant="521" id="o51-UQ-a0h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="custom" identifier="NextStep" customClass="CircleMaskSegue" customModule="CustomTransitions" customModuleProvider="target" id="4kn-JD-sGc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8G-yg-etr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="479"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bg1" width="640" height="960"/>
+    </resources>
 </document>
